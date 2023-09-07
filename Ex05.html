@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="ex05.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Meu Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Página Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ex01.html">Exercício 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ex02.html">Exercício 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ex03.html">Exercício 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ex04.html">Exercício 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ex05.html">Exercício 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Ex06.html">Exercício 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ex07.html">Exercício 7</a>
+                </li>
+                <!-- Adicione mais itens de menu conforme necessário -->
+            </ul>
+        </div>
+    </nav>
+    <h1>Calculadora de Custo de Assentamento de Piso</h1>
+
+    <label for="comprimento">Comprimento do Cômodo (em metros):</label>
+    <input type="number" id="comprimento"> <br><br>
+
+    <label for="largura">Largura do Cômodo (em metros):</label>
+    <input type="number" id="largura"><br><br>
+
+    <button onclick="calcularCusto()">Calcular Custo</button>
+
+    <div id="resultado">
+        <h2>Custo de Assentamento de Piso:</h2>
+        <p id="custoPiso"></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
